@@ -1,0 +1,474 @@
+{
+  "life_area_assessments": {
+    "health": {
+      "version": 1,
+      "name": "HEALTH",
+      "display_name": "Health",
+      "description": "Physical fitness, nutrition, energy, and overall wellness",
+      "instructions": "How satisfied are you with your overall health and energy levels?",
+      "questions": [
+        {
+          "id": "energy_levels",
+          "text": "Energy levels - Do you wake up refreshed and maintain energy throughout the day?"
+        },
+        {
+          "id": "physical_fitness",
+          "text": "Physical fitness - Are you in good shape for your age and lifestyle?"
+        },
+        {
+          "id": "nutrition_quality",
+          "text": "Nutrition quality - Do you eat balanced, nutritious meals regularly?"
+        },
+        {
+          "id": "sleep_quality",
+          "text": "Sleep quality - Do you get 7-9 hours of quality sleep consistently?"
+        },
+        {
+          "id": "stress_management",
+          "text": "Stress management - Can you handle stress without it affecting your health?"
+        },
+        {
+          "id": "preventive_care",
+          "text": "Preventive care - Do you get regular checkups and stay on top of health screenings?"
+        },
+        {
+          "id": "body_composition",
+          "text": "Body composition - Are you at a healthy weight with good muscle tone?"
+        },
+        {
+          "id": "mental_health",
+          "text": "Mental health - Do you feel mentally stable and emotionally balanced?"
+        },
+        {
+          "id": "recovery_habits",
+          "text": "Recovery habits - Do you have systems for rest and recovery?"
+        },
+        {
+          "id": "health_consistency",
+          "text": "Health consistency - Are your healthy habits automatic and sustainable?"
+        }
+      ]
+    },
+    "career": {
+      "version": 1,
+      "name": "CAREER",
+      "display_name": "Career",
+      "description": "Professional growth, job satisfaction, and work-life balance",
+      "instructions": "How fulfilled do you feel in your professional life?",
+      "questions": [
+        {
+          "id": "job_satisfaction",
+          "text": "Job satisfaction - Do you enjoy what you do and find it meaningful?"
+        },
+        {
+          "id": "skill_development",
+          "text": "Skill development - Are you continuously learning and growing professionally?"
+        },
+        {
+          "id": "work_life_balance",
+          "text": "Work-life balance - Can you maintain boundaries between work and personal life?"
+        },
+        {
+          "id": "professional_relationships",
+          "text": "Professional relationships - Do you have good relationships with colleagues/clients?"
+        },
+        {
+          "id": "performance_quality",
+          "text": "Performance quality - Are you excelling in your current role?"
+        },
+        {
+          "id": "career_trajectory",
+          "text": "Career trajectory - Are you progressing toward your professional goals?"
+        },
+        {
+          "id": "financial_growth",
+          "text": "Financial growth - Is your income growing appropriately with your experience?"
+        },
+        {
+          "id": "industry_relevance",
+          "text": "Industry relevance - Are your skills current and valuable in the market?"
+        },
+        {
+          "id": "leadership_impact",
+          "text": "Leadership impact - Do you positively influence others in your work?"
+        },
+        {
+          "id": "future_readiness",
+          "text": "Future readiness - Are you prepared for changes in your industry?"
+        }
+      ]
+    },
+    "relationships": {
+      "version": 1,
+      "name": "RELATIONSHIPS",
+      "display_name": "Love & Relationships",
+      "description": "Romantic relationships, family bonds, and friendships",
+      "instructions": "How satisfied are you with your relationships with loved ones?",
+      "questions": [
+        {
+          "id": "romantic_relationship",
+          "text": "Romantic relationship - Is your romantic life fulfilling and healthy?"
+        },
+        {
+          "id": "family_bonds",
+          "text": "Family bonds - Do you have strong, positive relationships with family?"
+        },
+        {
+          "id": "friendship_quality",
+          "text": "Friendship quality - Do you have deep, meaningful friendships?"
+        },
+        {
+          "id": "social_connections",
+          "text": "Social connections - Do you feel connected to your community?"
+        },
+        {
+          "id": "communication_skills",
+          "text": "Communication skills - Are you a good listener and clear communicator?"
+        },
+        {
+          "id": "conflict_resolution",
+          "text": "Conflict resolution - Can you handle disagreements constructively?"
+        },
+        {
+          "id": "emotional_support",
+          "text": "Emotional support - Do you give and receive emotional support well?"
+        },
+        {
+          "id": "social_energy",
+          "text": "Social energy - Do you enjoy and seek out social interactions?"
+        },
+        {
+          "id": "relationship_maintenance",
+          "text": "Relationship maintenance - Do you invest time and effort in your relationships?"
+        },
+        {
+          "id": "boundaries",
+          "text": "Boundaries - Can you set healthy boundaries while staying connected?"
+        }
+      ]
+    },
+    "personal_growth": {
+      "version": 1,
+      "name": "PERSONAL_GROWTH",
+      "display_name": "Personal Growth",
+      "description": "Learning, mindset, habits, character development, and life skills",
+      "instructions": "How satisfied are you with your personal growth and learning?",
+      "questions": [
+        {
+          "id": "learning_mindset",
+          "text": "Learning mindset - Are you curious and always seeking to learn new things?"
+        },
+        {
+          "id": "self_awareness",
+          "text": "Self-awareness - Do you understand your strengths, weaknesses, and patterns?"
+        },
+        {
+          "id": "habit_formation",
+          "text": "Habit formation - Can you build and maintain positive habits effectively?"
+        },
+        {
+          "id": "mindset_quality",
+          "text": "Mindset quality - Do you maintain a positive, growth-oriented mindset?"
+        },
+        {
+          "id": "goal_achievement",
+          "text": "Goal achievement - Do you set and consistently achieve personal goals?"
+        },
+        {
+          "id": "adaptability",
+          "text": "Adaptability - Can you adjust and thrive when circumstances change?"
+        },
+        {
+          "id": "self_discipline",
+          "text": "Self-discipline - Can you do what needs to be done even when you don't feel like it?"
+        },
+        {
+          "id": "emotional_intelligence",
+          "text": "Emotional intelligence - Can you manage your emotions and understand others'?"
+        },
+        {
+          "id": "character_development",
+          "text": "Character development - Are you becoming the person you want to be?"
+        },
+        {
+          "id": "life_skills",
+          "text": "Life skills - Do you have the practical skills needed for modern life?"
+        }
+      ]
+    },
+    "finance": {
+      "version": 1,
+      "name": "FINANCE",
+      "display_name": "Finance",
+      "description": "Income, savings, investments, and financial security",
+      "instructions": "How secure and satisfied do you feel about your financial situation?",
+      "questions": [
+        {
+          "id": "budget_management",
+          "text": "Budget management - Do you track income and expenses effectively?"
+        },
+        {
+          "id": "debt_control",
+          "text": "Debt control - Are you managing debt responsibly or debt-free?"
+        },
+        {
+          "id": "emergency_fund",
+          "text": "Emergency fund - Do you have 3-6 months of expenses saved?"
+        },
+        {
+          "id": "investment_strategy",
+          "text": "Investment strategy - Are you investing for long-term wealth building?"
+        },
+        {
+          "id": "income_growth",
+          "text": "Income growth - Is your earning potential increasing over time?"
+        },
+        {
+          "id": "financial_knowledge",
+          "text": "Financial knowledge - Do you understand basic financial principles?"
+        },
+        {
+          "id": "spending_discipline",
+          "text": "Spending discipline - Can you control impulse purchases and stick to priorities?"
+        },
+        {
+          "id": "insurance_coverage",
+          "text": "Insurance coverage - Are you protected against major financial risks?"
+        },
+        {
+          "id": "retirement_planning",
+          "text": "Retirement planning - Are you on track for financial independence?"
+        },
+        {
+          "id": "money_mindset",
+          "text": "Money mindset - Do you have a healthy relationship with money?"
+        }
+      ]
+    },
+    "recreation": {
+      "version": 1,
+      "name": "RECREATION",
+      "display_name": "Recreation",
+      "description": "Hobbies, entertainment, fun activities, and relaxation",
+      "instructions": "How satisfied are you with your hobbies and recreational activities?",
+      "questions": [
+        {
+          "id": "fun_activities",
+          "text": "Fun activities - Do you regularly engage in activities you genuinely enjoy?"
+        },
+        {
+          "id": "hobby_development",
+          "text": "Hobby development - Do you have hobbies that bring you satisfaction?"
+        },
+        {
+          "id": "play_time",
+          "text": "Play time - Do you make time for unstructured, playful activities?"
+        },
+        {
+          "id": "adventure_seeking",
+          "text": "Adventure seeking - Do you try new experiences and step out of your comfort zone?"
+        },
+        {
+          "id": "creative_expression",
+          "text": "Creative expression - Do you have outlets for creativity and self-expression?"
+        },
+        {
+          "id": "social_recreation",
+          "text": "Social recreation - Do you enjoy fun activities with others?"
+        },
+        {
+          "id": "solo_enjoyment",
+          "text": "Solo enjoyment - Can you have fun and relax by yourself?"
+        },
+        {
+          "id": "vacation_breaks",
+          "text": "Vacation/breaks - Do you take regular breaks and vacations to recharge?"
+        },
+        {
+          "id": "spontaneity",
+          "text": "Spontaneity - Can you be spontaneous and embrace unexpected fun?"
+        },
+        {
+          "id": "life_enjoyment",
+          "text": "Life enjoyment - Do you genuinely enjoy your life and have fun regularly?"
+        }
+      ]
+    },
+    "spirituality": {
+      "version": 1,
+      "name": "SPIRITUALITY",
+      "display_name": "Spirituality",
+      "description": "Faith, values, purpose, meaning, and inner peace",
+      "instructions": "How connected do you feel to your sense of purpose and meaning?",
+      "questions": [
+        {
+          "id": "sense_of_purpose",
+          "text": "Sense of purpose - Do you feel your life has meaning and direction?"
+        },
+        {
+          "id": "core_values",
+          "text": "Core values - Are you clear on your values and do you live by them?"
+        },
+        {
+          "id": "inner_peace",
+          "text": "Inner peace - Do you feel calm and centered most of the time?"
+        },
+        {
+          "id": "gratitude_practice",
+          "text": "Gratitude practice - Do you regularly appreciate what you have?"
+        },
+        {
+          "id": "mindfulness",
+          "text": "Mindfulness - Are you present and aware in your daily life?"
+        },
+        {
+          "id": "service_to_others",
+          "text": "Service to others - Do you help others and contribute beyond yourself?"
+        },
+        {
+          "id": "spiritual_practices",
+          "text": "Spiritual practices - Do you have practices that connect you to something greater?"
+        },
+        {
+          "id": "forgiveness",
+          "text": "Forgiveness - Can you forgive others and yourself when needed?"
+        },
+        {
+          "id": "hope_and_faith",
+          "text": "Hope and faith - Do you maintain optimism about the future?"
+        },
+        {
+          "id": "life_meaning",
+          "text": "Life meaning - Do you feel your existence matters and has impact?"
+        }
+      ]
+    },
+    "environment": {
+      "version": 1,
+      "name": "ENVIRONMENT",
+      "display_name": "Environment",
+      "description": "Physical spaces, organization, and surroundings",
+      "instructions": "How satisfied are you with your living and work spaces?",
+      "questions": [
+        {
+          "id": "home_organization",
+          "text": "Home organization - Is your living space clean, organized, and functional?"
+        },
+        {
+          "id": "workspace_setup",
+          "text": "Workspace setup - Do you have an organized, productive work environment?"
+        },
+        {
+          "id": "digital_organization",
+          "text": "Digital organization - Are your digital files, emails, and devices well-organized?"
+        },
+        {
+          "id": "physical_aesthetics",
+          "text": "Physical aesthetics - Do your spaces reflect your personality and inspire you?"
+        },
+        {
+          "id": "functionality",
+          "text": "Functionality - Do your spaces support your goals and daily activities?"
+        },
+        {
+          "id": "maintenance_habits",
+          "text": "Maintenance habits - Do you regularly clean and maintain your spaces?"
+        },
+        {
+          "id": "environmental_health",
+          "text": "Environmental health - Are your spaces clean, well-ventilated, and healthy?"
+        },
+        {
+          "id": "security",
+          "text": "Security - Do you feel safe and secure in your environments?"
+        },
+        {
+          "id": "minimalism_clarity",
+          "text": "Minimalism/clarity - Are your spaces free from clutter and distractions?"
+        },
+        {
+          "id": "environmental_impact",
+          "text": "Environmental impact - Are you mindful of your environmental footprint?"
+        }
+      ]
+    },
+    "contribution": {
+      "version": 1,
+      "name": "CONTRIBUTION",
+      "display_name": "Contribution & Legacy",
+      "description": "Making a difference, leaving a legacy, serving others, and contributing to society",
+      "instructions": "How satisfied are you with the impact you're making on others and the world?",
+      "is_locked": true,
+      "unlock_level": "master",
+      "unlock_criteria": {
+        "min_areas_at_proficient": 6,
+        "min_streak_days": 90,
+        "min_habits_completed": 50
+      },
+      "questions": [
+        {
+          "id": "community_impact",
+          "text": "Community impact - Are you making a positive difference in your community?"
+        },
+        {
+          "id": "mentoring_others",
+          "text": "Mentoring others - Do you share knowledge and help others grow?"
+        },
+        {
+          "id": "legacy_building",
+          "text": "Legacy building - Are you creating something that will outlast you?"
+        },
+        {
+          "id": "social_responsibility",
+          "text": "Social responsibility - Do you consider the broader impact of your actions?"
+        },
+        {
+          "id": "charitable_giving",
+          "text": "Charitable giving - Do you contribute time, money, or skills to causes you care about?"
+        },
+        {
+          "id": "knowledge_sharing",
+          "text": "Knowledge sharing - Do you teach or share what you've learned with others?"
+        },
+        {
+          "id": "positive_influence",
+          "text": "Positive influence - Do people become better through their interaction with you?"
+        },
+        {
+          "id": "systemic_change",
+          "text": "Systemic change - Are you working to improve systems or institutions?"
+        },
+        {
+          "id": "future_generations",
+          "text": "Future generations - Are you contributing to a better world for those who come after?"
+        },
+        {
+          "id": "purpose_fulfillment",
+          "text": "Purpose fulfillment - Are you living out your highest purpose and calling?"
+        }
+      ]
+    }
+  },
+  "assessment_metadata": {
+    "scoring": {
+      "min_score": 1,
+      "max_score": 10,
+      "total_questions_per_area": 10,
+      "calculation": "Total ÷ 10 = Area Score"
+    },
+    "usage_instructions": [
+      "Plot each score on your Wheel of Life",
+      "Connect the dots - is your wheel round or bumpy?",
+      "Identify your 2-3 lowest areas for focused improvement",
+      "Celebrate your strong areas and use them to support weaker ones",
+      "Reassess every 3-6 months to track progress",
+      "Work toward unlocking Contribution & Legacy once you've mastered the fundamentals"
+    ],
+    "interpretation": {
+      "excellent": "8-10",
+      "good": "6-7",
+      "needs_improvement": "4-5",
+      "urgent_attention": "1-3"
+    }
+  }
+}

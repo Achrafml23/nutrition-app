@@ -12,6 +12,7 @@ from sqlmodel import (
 )
 
 from app.models.life_areas import LifeArea  # noqa
+from app.models.nutrition import Meal, SavedDay  # noqa
 from app.models.wheel_of_life import (  # noqa
     AreaAssessment,
     AssessmentQuestion,
@@ -109,6 +110,10 @@ class User(UserBase, table=True):  # type: ignore
     refresh_tokens: Optional["RefreshToken"] = Relationship(
         back_populates="user", cascade_delete=True
     )
+
+    # Nutrition relationships
+    meals: list["Meal"] = Relationship(back_populates="user", cascade_delete=True)
+    saved_days: list["SavedDay"] = Relationship(back_populates="user", cascade_delete=True)
 
     updated_at: datetime | None = Field(
         default_factory=lambda: datetime.now(timezone.utc),
